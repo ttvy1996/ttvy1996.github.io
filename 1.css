@@ -1,5 +1,39 @@
 *{margin: 0px;padding: 0px;}
 
+.tt a.nuthire.btn.btn-primary {
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.tt p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 24%;
+}
+
 .khoitt1 {
     height: 100%;
     width: 100%;
@@ -15,6 +49,7 @@
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
 }
 
 body,html {
@@ -44,9 +79,23 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 @media (max-width: 576px){
 	*{}
 
+.tt img {
+    width: 160px;
+}
+
+.tt {
+    top: 72px;
+}
+
+ul.navbar-nav.ml-auto {
+    background: white;
+    border-top: 1px solid #d8d8d8;
+}
+
 a.nav-link {
     line-height: 30px;
     text-align: center;
+    border-top: 1px dashed #d8d8d8;
 }
 
 a.navbar-brand {
