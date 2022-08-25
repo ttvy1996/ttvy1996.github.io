@@ -1,5 +1,34 @@
 *{margin: 0px;padding: 0px;}
 
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 75%;
+    margin-left: -2px;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.xuong {
+    width: 40px;
+    height: 70px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .khoittnho {
     margin-bottom: 55px;
 }
@@ -126,6 +155,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 
 @media (max-width: 576px){
 	*{}
+
+h2.tieudecap2.text-sm-left.text-center {
+    margin-top: 25px;
+}
 
 .tt img {
     width: 160px;
