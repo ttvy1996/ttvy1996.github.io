@@ -8,4 +8,9 @@ $(function() {
 		$('body,html').animate({scrollTop:$('#khoisanpham').offset().top},800);
 		return false;
 	});
+
+	$(".cm").click(function(event) {
+		$('body,html').animate({scrollTop:$('#phanhoi').offset().top},800);
+		return false;
+	});
 });
